@@ -1,0 +1,94 @@
+/*Tip calculator style*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('img/cutlery.jpg') no-repeat;
+    background-size: cover;
+    color: #532827;
+
+}
+
+#container {
+    width: 450px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url('img/paper-pattern.jpg') top left repeat;
+    background-size: cover;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto 20px;
+    padding-bottom: 17px;
+    border-bottom: solid 0.5px Grey;
+    font-size: 43px;
+}
+
+label, input, select {
+    display: block;
+    text-align: left;
+}
+
+label
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input {
+    width: 130px;
+    height: 40px;
+}
+
+button {
+    background-color: #532827;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 60px;
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+    border-radius: 5px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#billAmount, #serviceQuality, #totalPeople {
+    margin-bottom: 40px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size:14px;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+}
+#totalTip small {
+    font-size: 14px; 
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
